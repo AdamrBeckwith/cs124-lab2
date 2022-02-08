@@ -8,10 +8,9 @@ html {
 
 #container {
     display: grid; 
-    grid-template-columns:  20% 60% 20%;
-    grid-template-rows:20% 60% 20%; 
-    size: contain;
-  
+    grid-template-columns: 5% 90% 5%; /* 30px 300px 30px ; */
+    grid-template-rows: 90px 425px 35px 90px; 
+    
 }
 
 #title {
@@ -19,6 +18,13 @@ html {
     border-color: red;
     grid-row: 1/ span 1;
     grid-column: 2/span 1;
+
+    font-style: bold;
+    font-family: "Comic Sans MS" ;
+    text-align: center;
+    font-size: 60px ;
+    color: Black
+
 }
 
 #list {
@@ -26,11 +32,36 @@ html {
     border-color: yellow;
     grid-row: 2/ span 1;
     grid-column: 2/span 1;
+
+    
+    font-family: "Comic Sans MS" ;
+    font-size: 18px ;
+    color: Black; 
+    
+}
+#list li {
+    list-style: none;
+}
+text {
+    font-size: 30px;
 }
 
 #buttons {
+    /* display: flex; */
     border-style: solid;
     border-color: orange;
-    grid-row: 3/ span 1;
+    grid-row: 4/ span 1;
     grid-column: 1/span 3;
+    justify-content: space-between;
+    text-align: center;
+    
 } 
+#buttons input{
+    background-color: black; 
+    color: white;
+    font-family: "Comic Sans MS" ;
+    font-size: 18px ;
+    height: 50px;
+
+
+}
