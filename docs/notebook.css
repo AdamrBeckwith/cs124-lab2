@@ -1,15 +1,16 @@
-body {
+html {
     background-image: url('background.jpg');
-    background-size: 360px 640px;
+    background-size: contain;
     background-repeat: no-repeat; 
     width: 360px;
-    height: 640px;
+    height: 640px; 
 }
 
 #container {
     display: grid; 
-    grid-template-columns: 30px 300px  30px;
-    grid-template-rows:30px 300px  30px; 
+    grid-template-columns:  20% 60% 20%;
+    grid-template-rows:20% 60% 20%; 
+    size: contain;
   
 }
 
