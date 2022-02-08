@@ -51,7 +51,7 @@ text {
     border-style: solid;
     border-color: orange;
     grid-row: 4/ span 1;
-    grid-column: 1/span 3;
+    grid-column: 2/span 1;
     justify-content: space-between;
     text-align: center;
     
