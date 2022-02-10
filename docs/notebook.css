@@ -56,17 +56,28 @@ text {
     justify-content: space-between; */
 
     /* grid-row: 4/ span 1;
-    grid-column: 2/span 1;
-    justify-content: space-between; */
+    grid-column: 2/span 1; */
+    /* justify-content: space-between; */
     text-align: center;
 
     display: block;
     /* Can use percentages too!!
     Can also do a trash icon -- font awesome trash icon -- has the html and will appear */
+    left: 30px;
+    right: 30px;
     bottom: 10px;
     position: fixed;
     
 } 
+
+#hide {
+    float: left;
+}
+
+#trash {
+    float: right;
+}
+
 #buttons input{
     background-color: black; 
     color: white;
