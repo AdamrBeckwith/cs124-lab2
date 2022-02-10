@@ -8,37 +8,57 @@ html {
 
 #container {
     display: grid; 
-    grid-template-columns: 5% 90% 5%; /* 30px 300px 30px ; */
+    grid-template-columns: 30px 270px 60px; /* 30px 300px 30px ; */
     grid-template-rows: 90px 425px 35px 90px; 
     
 }
 
 #title {
-    border-style: solid;
-    border-color: red;
-    grid-row: 1/ span 1;
-    grid-column: 2/span 1;
+    /* border-style: solid;
+    border-color: red; */
+
+    /* grid-row: 1/ span 1;
+    grid-column: 2/span 1; */
+    display: block;
+    text-align: center;
+    top: 8px;
+    left: 30px;
+    right: 30px;
+    bottom: 500px;
+    position: fixed;
 
     font-style: bold;
-    font-family: "Comic Sans MS" ;
+    font-family: "Arial" ;
     text-align: center;
     font-size: 60px ;
-    color: Black
+    color: Black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
 }
 
 #list {
-    border-style: solid;
-     border-color: yellow;
-    grid-row: 2/ span 1;
-    grid-column: 2/span 1;
+    /* border-style: solid;
+    border-color: yellow; */
+    /* grid-row: 2/ span 1;
+    grid-column: 2/span 1; */
 
-    
-    font-family: "Comic Sans MS" ;
+    display: block;
+    top: 90px;
+    left: 30px;
+    right: 45px;
+    bottom: 110px;
+    position: fixed;
+
+    font-style: bold;
+    /* font-family: "Courier New" ; */
+    /* font-family: "Arial (sans-serif)" ; */
+    font-family: "American Typewriter";
     font-size: 18px ;
     color: Black; 
-    
 }
+
 #list li {
     list-style: none;
 }
@@ -47,43 +67,32 @@ text {
 }
 
 #buttons {
-    /* display: flex; */
-    border-style: solid;
-    border-color: orange;
-
-    /* grid-row: 4/ span 1;
-    grid-column: 1/span 3;
-    justify-content: space-between; */
-
-    /* grid-row: 4/ span 1;
-    grid-column: 2/span 1; */
-    /* justify-content: space-between; */
+    /* border-style: solid;
+    border-color: orange; */
     text-align: center;
 
     display: block;
-    /* Can use percentages too!!
-    Can also do a trash icon -- font awesome trash icon -- has the html and will appear */
-    left: 30px;
-    right: 30px;
-    bottom: 10px;
+    left: 40px;
+    right: 40px;
+    bottom: 20px;
     position: fixed;
     
 } 
 
 #hide {
     float: left;
+    width: 100px;
 }
 
 #trash {
     float: right;
+    width: 100px;
 }
 
 #buttons input{
     background-color: black; 
     color: white;
-    font-family: "Comic Sans MS" ;
+    font-family: "Arial" ;
     font-size: 18px ;
     height: 50px;
-
-
 }
