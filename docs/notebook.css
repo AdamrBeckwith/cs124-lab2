@@ -29,7 +29,7 @@ html {
 
 #list {
     border-style: solid;
-    border-color: yellow;
+     border-color: yellow;
     grid-row: 2/ span 1;
     grid-column: 2/span 1;
 
@@ -50,10 +50,16 @@ text {
     /* display: flex; */
     border-style: solid;
     border-color: orange;
-    grid-row: 4/ span 1;
+    /* grid-row: 4/ span 1;
     grid-column: 1/span 3;
-    justify-content: space-between;
+    justify-content: space-between; */
     text-align: center;
+
+    display: block;
+    /* Can use percentages too!!
+    Can also do a trash icon -- font awesome trash icon -- has the html and will appear */
+    bottom: 10px;
+    position: fixed;
     
 } 
 #buttons input{
